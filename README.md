@@ -2,13 +2,19 @@
 
 
 ## Commands
-- npm i vue@latest
-- composer require inertiajs/inertia-laravel
 
-- npm i @inertiajs/vue3
+### Inertia related by documentation
+  - npm i vue@latest
+  - composer require inertiajs/inertia-laravel
 
-- npm i @vitejs/plugin-vue
+  - npm i @inertiajs/vue3
 
-- Inertia middleware
-  - php artisan inertia:middleware
+  - npm i @vitejs/plugin-vue
+
+  - Inertia middleware
+    - php artisan inertia:middleware
+
+### Tailwind
+  - npm install -D tailwindcss postcss autoprefixer @tailwindcss/vite @tailwindcss/cli
+
 
