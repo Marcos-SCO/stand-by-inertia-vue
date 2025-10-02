@@ -22,4 +22,11 @@ createInertiaApp({
       .component('Link', Link)
       .mount(el)
   },
+
+  progress: {
+    color: '#b228b2',
+    includeCSS: true,
+    showSpinner: true,
+  },
+
 })
