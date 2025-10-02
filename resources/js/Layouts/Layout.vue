@@ -20,6 +20,10 @@
                     <Link :href="route('home')">Home</Link>
                     <Link :href="route('about')">About</Link>
                 </div>
+                
+                <div class="space-x-6">
+                    <Link :href="route('register')">Register</Link>
+                </div>
             </nav>
         </header>
 
