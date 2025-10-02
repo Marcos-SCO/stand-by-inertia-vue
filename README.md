@@ -14,6 +14,9 @@
   - Inertia middleware
     - php artisan inertia:middleware
 
+  - Named routes in Inertia with Ziggy
+    - composer require tightenco/ziggy
+    
 ### Tailwind
   - npm install -D tailwindcss postcss autoprefixer @tailwindcss/vite @tailwindcss/cli
 
