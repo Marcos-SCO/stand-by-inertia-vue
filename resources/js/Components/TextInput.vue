@@ -14,14 +14,15 @@ defineProps({
         type: String,
         default: "text",
     },
-    message: String
+    label: String,
+    message: String,
 });
 </script>
 
 <template>
     <div class="mb-6">
         <label for="name" class="block mb-2 text-sm font-medium text-gray-700">
-            Name
+            {{ label }}
         </label>
 
         <input

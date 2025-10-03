@@ -16,3 +16,6 @@ Route::inertia('/register', 'Auth/Register')
 
 Route::post('/register', [AuthController::class, 'register'])
     ->name('register.store');
+
+Route::inertia('/login', 'Auth/Login')->name('login');
+Route::post('/login', [AuthController::class, 'login']);
